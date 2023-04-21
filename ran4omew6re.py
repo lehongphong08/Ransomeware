@@ -28,7 +28,7 @@ def decrypt(filename, key):
     f = Fernet(key)
 
     with open(filename, "rb") as file:
-        # Đọc dữ liệu từ tập tin
+        
         encrypted_data = file.read()
 
     
